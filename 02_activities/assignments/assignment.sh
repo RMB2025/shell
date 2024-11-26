@@ -17,9 +17,9 @@ touch analysis/main.py
 # download client data
 
 # The following command DOES NOT WORK in git bash due to the lack of the wget executable.
-# wget -O rawdata.zip https://github.com/UofT-DSI/shell/raw/refs/heads/main/02_activities/assignments/rawdata.zip
-# So I downloaded it directly, and I'm copying it over here:
-cp ~/Downloads/rawdata.zip .
+wget -O rawdata.zip https://github.com/UofT-DSI/shell/raw/refs/heads/main/02_activities/assignments/rawdata.zip
+# So I downloaded it directly for testing, and I'm copying it over here:
+# cp ~/Downloads/rawdata.zip .
 unzip rawdata.zip
 
 ###########################################
